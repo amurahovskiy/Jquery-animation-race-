@@ -1,0 +1,98 @@
+body{
+    padding:0;
+    margin:0;
+}
+main {
+    
+  
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    background:grey;
+    height: 100%;
+}
+.container-game{
+    background:grey;
+    display:flex;
+    flex-direction:row;
+
+}
+.container-car img{
+    margin-top:50px;
+    margin-bottom:50px;
+    width:100px;
+    height: 100px;
+}
+
+
+.container-car{
+    display: flex;
+    flex-direction: column;
+    
+}
+.one-container-car{
+    display:flex;
+}
+.two-container-car{
+    display:flex;
+}
+.container-car img{
+    
+    position: relative;
+}
+#img-start{
+    
+     width:100px;
+     height: 100px;
+}
+.container-start{
+    display:flex;
+    padding-left:20%;
+}
+.image-win-car{
+    display:flex;
+    margin-top:0;
+    position: absolute;
+    width:100px;
+    height: 100px;
+    opacity:0;
+    
+}
+.cont{
+    display:flex;
+    flex-direction: column;
+}
+.content-dym{
+    
+    width:100px;
+    height: 100px;
+    position: relative;
+    opacity:1;
+}
+.cont{
+    padding-top:5%;
+    position: absolute;
+    padding-right:0;
+    display: flex;
+    flex-direction: row;
+}
+.two-dym{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-top:17%;
+ 
+}
+
+h2{
+    opacity:0;
+    position: absolute;
+    margin-left:100px;
+   
+}
+.container-btn{
+    width:5%;
+    height: 5%;
+
+    display:flex;
+}
